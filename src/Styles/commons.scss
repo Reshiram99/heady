@@ -1,0 +1,53 @@
+$listItemColor:black;
+$listItemActiveColor:#fde9a0;
+
+.text-right{
+    text-align: right;
+}
+.clearFix{
+    clear: both;
+}
+
+.list{
+    color: $listItemColor;
+    list-style: none;
+    display: inline-flex;
+    padding: 10px;
+    &.responsive{
+        padding: 0px;
+    }
+    li{
+        padding: 10px 10px 0px 10px;
+        margin: 5px;
+        text-transform: uppercase;
+        &.responsive{
+            padding: 2px 2px 0px 2px;
+        }
+        div{
+            transform: translate(0px, 10px);
+            
+        }
+        &.icon{
+            &:hover , &.active{
+                color: $listItemActiveColor;
+                border-bottom: none;
+                cursor: pointer;
+            }
+            div{
+                transform: translate(0px, 7px);
+            }
+        }
+        &:hover , &.active{
+            border-bottom: 10px solid $listItemActiveColor;
+            cursor: pointer;
+        }
+    }
+}
+
+.autoMargin{
+    margin: auto;
+}
+
+.maxWidth{
+    width: 100%;
+}

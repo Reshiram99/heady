@@ -1,0 +1,77 @@
+@import "../../../Styles/commons.scss";
+
+.pagePaper{
+    padding: 25px;
+}
+
+.imageOnBox{
+    position: relative;
+    left: -50px;
+    width: 100%;
+}
+
+@media(max-width:992px){
+    .imageOnBox{
+        left: 0px;
+    }
+}
+
+.descriptionBox{
+    padding: 20px;
+}
+
+.discount{
+    color: #908f8f;
+    margin: 5px;
+    text-decoration: line-through;
+}
+
+.topBottomSpaced{
+    margin: 10px 0px 10px 0px;
+}
+
+.colors{
+    div{
+        width: 20px;
+        height: 20px;
+        float: left;
+        border-radius: 50%;
+        padding: 2px;
+        margin: 5px;
+        border: 1px solid #0a0a0a;
+        cursor: pointer;
+        svg{
+            font-size:15px;
+            color:White;
+            font-weight: bolder;
+        }
+    }
+}
+
+.addRemoveItem{
+    background: #e5e5e5;
+    display: flex;
+    span{
+        padding: 10px 10px 10px 10px;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        &.count{
+            font-size: 18px;
+            cursor: unset;
+        }
+    }
+    div{
+        width: calc( 100% - 75px);
+        float: right;
+        text-align: center;
+        padding: 15px 0px;
+        color: white;
+        font-weight: bolder;
+        background: #fbd54a;
+        cursor: pointer;
+    }
+    .star{
+        color: rgb(251, 213, 74);
+    }
+}

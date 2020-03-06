@@ -1,0 +1,12 @@
+.flexDiv{
+    height: 20vh;
+    display: flex;
+    background: rgb(255, 203, 13);
+    div{
+        margin: auto;
+    font-size: 20px;
+    font-family: monospace;
+    height: 50px;
+    border-bottom: 1px solid black;
+    }
+}

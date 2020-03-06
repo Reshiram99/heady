@@ -1,0 +1,23 @@
+.slogan{
+    width: 200%;
+    background: #fafafa;
+    padding: 15px;
+    &.longer{
+        width: 500%;
+    }
+}
+@media(max-width:992px){
+    .slogan{
+        width: 100%;
+        padding: 5px;
+        &.longer{
+            width: 100%;
+        }
+    }
+    .responsiveDirection{
+        flex-direction: column-reverse;
+    }
+}
+.z-index{
+    z-index: 1;
+}
