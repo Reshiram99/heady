@@ -14,15 +14,20 @@ The App repository can be cloned from
 
 The App commands to run
 
-## 1. npm install 
+### 1. npm install 
 
 installs the required dependancies
 
-## 2. npm start
+### 2. npm start
 
 Runs the application
 
 browser opens with the url `http://localhost:3000`
+
+
+The application build is hosted in `http://vickys.space/heady`
+
+
 
 
 
