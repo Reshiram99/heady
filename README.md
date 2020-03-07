@@ -22,10 +22,10 @@ installs the required dependancies
 
 Runs the application
 
-browser opens with the url `http://localhost:3000`
+browser opens with the url [`http://localhost:3000`](http://localhost:3000)
 
 
-The application build is hosted in `http://vickys.space/heady`
+The application build is hosted in [http://vickys.space/heady](http://vickys.space/heady)
 
 
 
